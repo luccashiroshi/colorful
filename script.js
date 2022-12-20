@@ -1,6 +1,6 @@
 function doGrid() {
-    let columns = Math.trunc(window.innerWidth / 50)
-    let lines = Math.trunc(window.innerHeight / 50)
+    let columns = Math.trunc(window.innerWidth / 45)
+    let lines = Math.trunc(window.innerHeight / 45)
 
     for(var i = 1; i < lines; i++) {
         doColumns(columns)
